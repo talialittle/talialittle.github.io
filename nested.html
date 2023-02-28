@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <nav>
             <a href="index.html">Home</a>
             <a href="tags.html">Tags</a>
             <a href="media.html">Media</a>
             <a href="nested.html">Nested</a>
         </nav>
-        <style>
-            .myDiv {text-align: center;}
-        </style>
     </head>
 <body>
 
 
-
-<div class="myDiv"><h1><span style="color:brown">What a Gymnast <i>Needs</i> for Competition</span></h1></div>
-
+    <div class="container">
+        <img src="chalk.png" alt="chalk" style="width:100%; height: 600px;">
+        <div class="myDiv large background centered"><h1><span style="color:brown">What a Gymnast <i>Needs</i> for Competition</span></h1></div>
+      </div>
 
 
     <Div> 
         <P>Each event may require different essentials to help a gymnast train. For example, <em><b>Bars</b></em> requires gymnasts to have grips. Other essentials are...</P>
     </Div>
     
-   <ul> 
+   <ul id="widelist"> 
     <li><h3>Chalk or <q>Powder</q></li></h3></li>
     <li><h3>Water</h3></li>
     <li><h3>Body Tape</h3></li>
@@ -31,16 +30,15 @@
    </ul>
 
 
-
+<element id="container">
    <dl>
    <li>What gymnasts might need for...<dt><b><em>Beam:</em></b></dt><dd>-wrist guards, chalk, body tape</dd></li> <br>
     <li>What gymnasts might need for...<dt><b><em>Floor:</em></b></dt><dd>-body tape, music, wrist guards, ankle braces, chalk</dd></li> <br>
     <li>What gymnasts might need for...<dt><b><em>Vault:</em></b></dt><dd>-tape to line the runway, wrist guards, chalk</dd></li> <br>
    </dl>
+</element>
 
-
-
-
+<div class="absolute"><p>NCAA Gymnastics</p></div>
 
 
 
