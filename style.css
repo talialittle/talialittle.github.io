@@ -1,8 +1,8 @@
 div.sticky {
     position: sticky;
     top: 0;
-    background-color: rgb(196, 255, 250);
-    border: 2px solid #dafdff;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #b2e7ff;
     }
 
     .container {
@@ -26,6 +26,42 @@ text-align: center}
 
 
 
+.huge {color: brown;
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vh;
+}
+
+
+.nav {text-align:center;
+    font-size: 35px;
+}
+
+a {color: rgb(255, 197, 197)}
+
+
+#widelist {background-color: rgb(31, 10, 10);
+    border:1px solid rgb(234, 226, 226);
+    width:40px;
+     padding: 10px;
+     margin:20px;
+    position: center}
+
+     li {background-color: rgb(223, 161, 161);
+        border:1px solid rgb(234, 226, 226);
+        width:60vw;
+         padding: 10px;
+         margin:20px;
+        position:center}
+
+
+
+
+
+
+
 
 
 .container-sm
@@ -43,7 +79,7 @@ text-align: center}
 
 
     p.copyright {
-        position: absolute;
+        
         width: 100%;
         color: #370000;
         line-height: 40px;
