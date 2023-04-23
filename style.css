@@ -57,16 +57,33 @@ a {color: rgb(255, 197, 197)}
         position:center}
 
 
+        .column {
+            float: left;
+            width: 50%;
+            padding: 0px;
+            background-color: black
+          }
+
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
 
 
-
-
-
-
+.pink {color: lightblue}
 
 .container-sm
 {position:relative ;
 text-align: center}
+
+
+.picture {
+    text-align: center;
+    
+    }
+
+
 
 
 .center {text-align: center}
